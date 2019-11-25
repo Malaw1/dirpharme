@@ -17,7 +17,7 @@
                     @if (Auth()->check() && Auth()->user()->role == 'admin')
                         You are logged in as The Admin!
                     @else
-                        You're kust logged in!
+                        You're just logged in!
                     @endif
                 </div>
             </div>

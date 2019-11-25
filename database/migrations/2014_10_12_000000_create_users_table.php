@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('adresse');
             $table->string('pays');
             $table->string('region');
-            $table->string('role')->default('labo');
+            $table->string('role');
             $table->string('telephone')->unique();
             $table->string('zip')->nullable();
             $table->string('first_name')->nullable();

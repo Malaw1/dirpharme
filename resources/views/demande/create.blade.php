@@ -23,7 +23,7 @@ $('.file-upload').file_upload();
     <div class="card">
         <div class="card-header"><h3>Veuillez payer les frais de traitement de dossier</h3></div>
         <div class="card-body">
-            <a href="{{ route('payment') }}">payment</a>
+            <a href="{{ url('payment') }}">payment</a>
         </div>
     </div>
 
